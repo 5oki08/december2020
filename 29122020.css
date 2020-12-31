@@ -1,0 +1,129 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Nanum Gothic', sans-serif;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	max-width: 870px;
+	margin: 0 auto;
+}
+
+
+/*page1*/
+.navbartop {
+	border: 4px solid #41610a;
+	border-radius: 18px;
+	border-top: none;
+	position: sticky;
+	background-color: #72b007;
+}
+.nav-link {
+	color: #501D91;
+	text-decoration: none;
+}
+.nav-link:hover {
+	color: #000000;
+	text-decoration: underline;
+	text-decoration-color: #41610a;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/*page2*/
+.yaRow {
+	margin-top: 0.9em;
+	border-bottom: 4px solid #5A5934;
+}
+#colm1 {
+/*	border: 8px dotted #5A5934;*/
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+}
+#colm1:hover {
+	background-color: #9C6F9D;
+}
+#colm2 {
+/*	border: 8px dotted #5A5934;*/
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+}
+#colm2:hover {
+	background-color: #21A01F;
+}
+#colm3 {
+/*	border: 8px dotted #5A5934;*/
+	border-top: none;
+	border-bottom: none;
+}
+#colm3:hover {
+	background-color: #F5EA96;
+}
+
+.yaMacards {
+	margin-top: 1em;
+}
+.card {
+	border-left: none;
+	border-right: none;
+}
+.card-title {
+	text-align: center;
+	margin-top: 0.3em;
+	height: 27%;
+}
+#subcard {
+	padding:0.3em; 
+	width:25%; 
+	border-radius:21px;
+	background-color: #67e607;
+	border: 1.4px solid #67e607;
+}
+#subcard:hover {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #326b29;
+	text-decoration: underline;
+	text-decoration-color: #fff;
+}
+#rejcard {
+	padding:0.3em; 
+	width:25%; 
+	border-radius:21px;
+	background-color: #eb2636;
+	border: 1.4px solid #e80712;
+}
+#rejcard:hover {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #ab0715;
+	text-decoration: underline;
+	text-decoration-color: #fff;
+}
+
+/*page3*/
+table { 
+    border-collapse: collapse;
+    text-align: center;
+    border-bottom: none;
+}
+td {
+	padding: 2em;
+}
+tr, td {
+	border-collapse: collapse;
+	border: 1.5px solid;
+}
+
+/*page4*/
+.kaende {
+	margin-top: 1em;
+}

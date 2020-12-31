@@ -1,0 +1,51 @@
+body {
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.navbar1 {
+	padding: 0.7em;
+	background-color: #7e3d17;
+}
+.navlist {
+	list-style-type: none;
+}
+.navlist-item {
+	display: inline-block;
+	letter-spacing: 0.4em;
+	padding: 0.7em;
+}
+.nav-link {
+	text-decoration: none;
+}
+.nav-link:hover {
+	color: #dcf217;
+	text-decoration: underline;
+	text-decoration-style: solid;
+	text-decoration-color: #fcba03;	
+}
+
+
+.markq {
+	padding: 1.7em;
+	font-size: 2em;
+	letter-spacing: 1.7em;
+	background-color: #f2ff03;
+	margin-top: 1.4em;
+}
+
+#rw1 {
+	padding: 7.9px;
+}
+#r2 {
+	background-color: #43ad59;
+	padding: 1.7em;
+}
+.r3 {
+	background-color: #43ad59;
+	padding: 1.7em;
+}
