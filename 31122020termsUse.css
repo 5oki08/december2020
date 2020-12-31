@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Nunito', sans-serif;
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+.nav1 {
+	background-color: #5A5934;
+	border-radius: 12px;
+	width: 100%;
+}
+.nav-link {
+	padding-left: 1.8em;
+	color: #1C88C2;
+}
+.nav-link:hover {
+	color: #C6BB29;
+	border: 1.4px solid #5DC29B;
+	border-left: none;
+	border-right: none;
+	float: center;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.nav-logo {
+	width: 9%;
+}
+
+#jtrfoot {
+	height: 15%;
+	background-color: #7EFC86;
+	margin-top: 0.2em;
+}
+.socialAnc {}
+.socialAnc:hover {
+	text-decoration: none;
+}
+.social-link {
+	width: 6%;
+}
+.social-link:hover {
+	text-decoration: none;
+}
+.ftTwo {
+	margin-top: 0.2em;
+}
+#pri {
+	color: #000;
+	border: 5px solid #000;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+}
+#pri:hover {
+	text-decoration: none;
+	color: #F11F58;
+}
+#pri1 {
+	color: #000;
+	border: 5px solid #000;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+}
+#pri1:hover {
+	text-decoration: none;
+	color: #F11F58;
+}
+
+.base-link {
+	padding: 5px;
+	color: #B6261D;
+	font-weight: 600;
+}
+.base-link:hover {
+	text-decoration: none;
+	color: #3E1767;
+	border-bottom: 1px solid #6BABE0;
+}
